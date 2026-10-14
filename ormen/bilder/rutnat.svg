@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="pil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#9a9a9a"/>
+    </marker>
+  </defs>
+  <rect width="760" height="400" fill="#ffffff"/>
+  <text x="24" y="32" font-size="15" font-weight="600" fill="#1a1a1a">En ruta är 20 × 20 pixlar. Skärmen är 30 × 30 rutor.</text>
+
+  <!-- pil för x -->
+  <line x1="230" y1="68" x2="530" y2="68" stroke="#9a9a9a" stroke-width="1.25" marker-end="url(#pil)"/>
+  <text x="380" y="58" text-anchor="middle" fill="#555555">x, räknat i rutor</text>
+  <!-- pil för y -->
+  <line x1="180" y1="100" x2="180" y2="300" stroke="#9a9a9a" stroke-width="1.25" marker-end="url(#pil)"/>
+  <text x="168" y="196" text-anchor="end" fill="#555555"><tspan x="168">y, räknat</tspan><tspan x="168" dy="16">i rutor</tspan></text>
+
+  <!-- kolumnnummer -->
+  <g text-anchor="middle" font-weight="600" fill="#1a1a1a">
+    <text x="255" y="92">0</text>
+    <text x="305" y="92">1</text>
+    <text x="355" y="92">2</text>
+    <text x="405" y="92">3</text>
+    <text x="455" y="92">4</text>
+    <text x="505" y="92">5</text>
+  </g>
+  <!-- radnummer -->
+  <g text-anchor="end" font-weight="600" fill="#1a1a1a">
+    <text x="220" y="130">0</text>
+    <text x="220" y="180">1</text>
+    <text x="220" y="230">2</text>
+    <text x="220" y="280">3</text>
+  </g>
+
+  <!-- rutnätet -->
+  <rect x="230" y="100" width="300" height="200" fill="#eeeeee" stroke="#9a9a9a" stroke-width="1.25"/>
+  <g stroke="#c8c8c8" stroke-width="1">
+    <line x1="280" y1="100" x2="280" y2="300"/>
+    <line x1="330" y1="100" x2="330" y2="300"/>
+    <line x1="380" y1="100" x2="380" y2="300"/>
+    <line x1="430" y1="100" x2="430" y2="300"/>
+    <line x1="480" y1="100" x2="480" y2="300"/>
+    <line x1="230" y1="150" x2="530" y2="150"/>
+    <line x1="230" y1="200" x2="530" y2="200"/>
+    <line x1="230" y1="250" x2="530" y2="250"/>
+  </g>
+
+  <!-- ruta (2, 1) -->
+  <rect x="330" y="150" width="50" height="50" fill="#f5d84a" stroke="#b89a10" stroke-width="2"/>
+  <circle cx="330" cy="150" r="4" fill="#1a1a1a"/>
+
+  <!-- förklaring -->
+  <line x1="384" y1="175" x2="552" y2="175" stroke="#9a9a9a" stroke-width="1.25" marker-start="url(#pil)"/>
+  <text x="560" y="170" font-weight="600" fill="#1a1a1a">ruta (2, 1)</text>
+  <text x="560" y="188" fill="#555555">börjar på pixel (40, 20)</text>
+
+  <text x="230" y="330" fill="#555555">Här syns bara hörnet uppe till vänster av skärmen.</text>
+  <text x="230" y="350" fill="#555555">Pixel = ruta × 20. Så ruta (2, 1) blir pixel (2 × 20, 1 × 20) = (40, 20).</text>
+</svg>

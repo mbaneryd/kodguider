@@ -7,6 +7,7 @@ Steg-för-steg-guider för att lära sig programmera genom att bygga egna spel. 
 | Guide | Språk | Vad man bygger |
 | --- | --- | --- |
 | [Rymdskjutaren](rymdskjutaren/) | Python + Pygame Zero | Styr ett rymdskepp och skjut ner fallande rymdblobbar |
+| [Ormen](ormen/) | Python + Pygame Zero | Snake: styr en orm som växer när den äter äpplen. Görs efter Rymdskjutaren. |
 
 ## Upplägg
 
