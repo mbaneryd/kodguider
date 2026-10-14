@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 432" width="760" height="432" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="pil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#9a9a9a"/>
+    </marker>
+  </defs>
+  <rect width="760" height="432" fill="#ffffff"/>
+  <text x="24" y="32" font-size="15" font-weight="600" fill="#1a1a1a">y = 0 är högst upp, ju större y desto längre ner</text>
+  <rect x="230" y="100" width="300" height="300" rx="4" fill="#eeeeee" stroke="#9a9a9a" stroke-width="1.25"/>
+  <circle cx="230" cy="100" r="4" fill="#1a1a1a"/>
+  <circle cx="530" cy="100" r="4" fill="#1a1a1a"/>
+  <circle cx="230" cy="400" r="4" fill="#1a1a1a"/>
+  <circle cx="530" cy="400" r="4" fill="#1a1a1a"/>
+  <line x1="230" y1="76" x2="530" y2="76" stroke="#9a9a9a" stroke-width="1.25" marker-end="url(#pil)"/>
+  <text x="380" y="66" text-anchor="middle" fill="#555555">x blir större åt höger</text>
+  <line x1="204" y1="100" x2="204" y2="400" stroke="#9a9a9a" stroke-width="1.25" marker-end="url(#pil)"/>
+  <text x="192" y="246" text-anchor="end" fill="#555555"><tspan x="192">y blir större</tspan><tspan x="192" dy="16">nedåt</tspan></text>
+  <text x="196" y="92" text-anchor="end" font-weight="600" fill="#1a1a1a">(0, 0)</text>
+  <text x="542" y="105" font-weight="600" fill="#1a1a1a">(600, 0)</text>
+  <text x="218" y="418" text-anchor="end" font-weight="600" fill="#1a1a1a">(0, 600)</text>
+  <text x="542" y="405" font-weight="600" fill="#1a1a1a">(600, 600)</text>
+  <circle cx="380" cy="250" r="3" fill="#555555"/>
+  <text x="390" y="254" font-size="11.5" fill="#555555">mitten (300, 300)</text>
+  <rect x="367.5" y="370" width="25" height="15" rx="2" fill="#a9c4ee" stroke="#2f6fd6" stroke-width="2"/>
+  <text x="367.5" y="362" font-size="11.5" fill="#1a1a1a">skeppet (275, 540)</text>
+</svg>
