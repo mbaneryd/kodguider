@@ -1,5 +1,6 @@
 import pgzrun
 import random
+from pgzero.builtins import *
 
 WIDTH = 600
 HEIGHT = 600

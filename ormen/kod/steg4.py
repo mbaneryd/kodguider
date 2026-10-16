@@ -1,4 +1,5 @@
 import pgzrun
+from pgzero.builtins import *
 
 # Skärmens storlek
 WIDTH = 600

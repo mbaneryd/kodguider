@@ -1,4 +1,5 @@
 import pgzrun
+from pgzero.builtins import *
 
 WIDTH = 600
 HEIGHT = 600

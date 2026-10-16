@@ -56,6 +56,7 @@ Skriv det här i `spel.py`:
 
 ```python
 import pgzrun
+from pgzero.builtins import *
 
 WIDTH = 600
 HEIGHT = 600
@@ -84,6 +85,7 @@ pgzrun.go()
 
 | Kod | Vad den gör |
 | --- | --- |
+| `from pgzero.builtins import *` | Samma som i Rymdskjutaren: berättar för VS Code vilka verktyg Pygame Zero har, så att du får förslag medan du skriver. |
 | `RUTA = 20` | Hur stor en ruta är, i pixlar. |
 | `def rita_ruta(x, y, farg):` | En egen funktion som ritar en ruta. `x`, `y` och `farg` kallas **parametrar**. De är tomma lappar som fylls i när någon kör funktionen. |
 | `x * RUTA` | `*` betyder gånger. Ruta 10 börjar alltså på pixel 200. |
@@ -236,7 +238,7 @@ Färdig kod: [`kod/steg4.py`](kod/steg4.py)
 
 Det här steget ändrar på flera ställen.
 
-**a)** Lägg till den här raden **under** `import pgzrun` högst upp:
+**a)** Lägg till den här raden **mellan** `import pgzrun` och `from pgzero.builtins import *` högst upp:
 
 ```python
 import random

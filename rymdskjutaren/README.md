@@ -71,6 +71,7 @@ Skriv det här i `spel.py`:
 
 ```python
 import pgzrun
+from pgzero.builtins import *
 
 WIDTH = 600
 HEIGHT = 600
@@ -90,6 +91,7 @@ pgzrun.go()
 | Kod | Liknar i Scratch | Vad den gör |
 | --- | --- | --- |
 | `import pgzrun` | (finns inte) | Hämtar Pygame Zero, verktygen för att göra spel. Skrivs alltid först. |
+| `from pgzero.builtins import *` | (finns inte) | Berättar för VS Code vilka verktyg Pygame Zero har, som `screen` och `Rect`. Då kan VS Code visa förslag medan du skriver. |
 | `WIDTH = 600` | scenens storlek | Hur bred skärmen är, i pixlar. En pixel är en liten prick på skärmen. |
 | `def draw():` | **för alltid** | Raderna med indrag under körs om och om igen, 60 gånger i sekunden. Här ritar man spelet. |
 | `screen.fill("black")` | byt bakgrund | Målar hela skärmen svart. |
@@ -225,7 +227,7 @@ Färdig kod: [`kod/steg4.py`](kod/steg4.py)
 
 ## Steg 5: Rymdblobbar
 
-Fienderna ska dyka upp på slumpmässiga ställen. Lägg till den här raden **under** `import pgzrun` högst upp:
+Fienderna ska dyka upp på slumpmässiga ställen. Lägg till den här raden **mellan** `import pgzrun` och `from pgzero.builtins import *` högst upp:
 
 ```python
 import random
